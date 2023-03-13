@@ -3,6 +3,7 @@ import styles from './lesson-06.module.scss';
 import vars from '../../../globals/variables.module.scss';
 import { ConfettiFx } from '../../fx/confetti-fx/confetti-fx';
 import { Task06 as Task } from '../../tasks/06/task-06';
+import Classnames from 'classnames';
 
 export const Lesson06 = () => {
     const [lessonSolved, setLessonSolved] = useState(false);
@@ -14,7 +15,10 @@ export const Lesson06 = () => {
     return (
         <div className={styles.root}>
             <Task />
-            <div className={`${styles.playground}`} id="playground">
+            <div
+                className={Classnames(styles.playground, styles.color)}
+                id="playground"
+            >
                 <div className={styles.quote}>
                     “Creativity is <span>nothing but a mind set</span> free.”
                 </div>

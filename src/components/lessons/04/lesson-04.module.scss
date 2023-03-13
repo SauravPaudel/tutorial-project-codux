@@ -44,15 +44,15 @@
     width: 160px;
 
     &.left:nth-child(1) {
-        height: 16px;
+        height: 160px;
     }
 
     &.left:nth-child(2) {
-        height: 120px;
+        height: 160px;
     }
 
     &.left:nth-child(3) {
-        height: 240px;
+        height: 160px;
     }
 }
 
@@ -61,14 +61,14 @@
     width: 160px;
 
     &.right:nth-child(1) {
-        height: 10px;
+        height: 160px;
     }
 
     &.right:nth-child(2) {
-        height: 200px;
+        height: 160px;
     }
 
     &.right:nth-child(3) {
-        height: 100px;
+        height: 160px;
     }
 }

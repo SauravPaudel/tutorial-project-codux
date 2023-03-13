@@ -99,35 +99,35 @@ export const Lesson07 = () => {
                     color={getColor(1)}
                     icon="arrow"
                     className={styles.icon}
-                    iconDirection="right"
+                    iconDirection="down"
                 />
                 <Box
                     outlined
                     color={getColor(2)}
                     icon="arrow"
                     className={styles.icon}
-                    iconDirection="up"
+                    iconDirection="down"
                 />
                 <Box
                     outlined
                     color={getColor(3)}
                     icon="arrow"
                     className={styles.icon}
-                    iconDirection="down"
+                    iconDirection="left"
                 />
                 <Box
                     outlined
                     color={getColor(4)}
                     icon="arrow"
                     className={styles.icon}
-                    iconDirection="right"
+                    iconDirection="left"
                 />
                 <Box
                     outlined
                     color={getColor(5)}
                     icon="arrow"
                     className={styles.icon}
-                    iconDirection="left"
+                    iconDirection="right"
                 />
                 <Box
                     outlined
